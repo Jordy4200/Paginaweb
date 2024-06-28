@@ -6,17 +6,18 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    background-color: #FEEAE6;
+    background-color: #ffffff;
 }
 /*  Columna de texto con flex normal porque no hubo problema por el tema del box*/
 .columna-texto {
     flex: 1;
-    background-color: #fff;
+    background-color: #A9C940;
     padding: 150px;
-    border-radius: 10px;
-    border-top: 50px solid #FFC0CB;
+    border-radius: 20px;
+    border-top: 50px solid #EA324E;
     box-sizing: border-box;
-    max-width: 40%;
+    max-width: 45%;
+    max-height: 5%;
 }
 
 /*Puse grid en vez de flex porque no se resolvia un problema que tenia con el  acomodar el video 2 donde queria */
@@ -36,7 +37,7 @@
     padding-top: 56.25%;
     height: 0;
     overflow: hidden;
-    border-top: 25px solid #FFC0CB;
+    border-top: 25px solid #EA324E;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -69,13 +70,13 @@
 .columna-texto h1 {
     font-size: 2.5em;
     color: #eb1e04;
-    margin-bottom: 2.5em;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 
 .columna-texto div {
-    font-size: 2em;
-    color: #666;
+    font-size: 1em;
+    color: #000000;
     margin-top: 0.5em;
     text-align: center;
 }
